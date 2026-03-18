@@ -1,51 +1,20 @@
-# Welcome to your Expo app 👋
+# Yazılımcı Kimlik Kartı (Challenge-3)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, React Native kullanılarak geliştirilmiş temel bir profil kartı uygulamasıdır. Projenin amacı, **Props** ve **State** yönetimini temel seviyede uygulamaktır.
 
-## Get started
+## 🎯 Özellikler
+- **Dinamik Veri:** İsim, uzmanlık ve seviye bilgileri `props` aracılığıyla bileşene aktarılır.
+- **State Yönetimi:** "İşe Al" butonuna basıldığında `isAvailable` durumu değişir.
+- **Koşullu Render:** Yazılımcının uygunluk durumuna göre buton metni ve stili dinamik olarak güncellenir.
 
-1. Install dependencies
+## 🛠 Kullanılan Teknolojiler
+- React Native
+- JavaScript
+- StyleSheet (CSS-in-JS)
 
-   ```bash
-   npm install
-   ```
+## 🎥 Demo Video:https://youtube.com/shorts/7vjHyXP5EEE
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# Challenge-3
+## 🚀 Kurulum
+1. Projeyi bilgisayarınıza indirin.
+2. `npm install` komutu ile bağımlılıkları yükleyin.
+3. `npx expo start` ile uygulamayı çalıştırın.
